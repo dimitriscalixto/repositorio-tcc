@@ -1,0 +1,27 @@
+Os resultados médios das Árvores de Decisão com profundidades 2, 4, 6 e 8 foram, respectivamente:
+
+\begin{itemize}
+    \item A profundidade 2 obteve uma acurácia média de 0,541.
+    \item A profundidade 4 apresentou uma melhora, atingindo 0,547.
+    \item A profundidade 6 teve desempenho inferior (0,528), indicando que não necessariamente o aumento da profundidade melhora a performance.
+    \item A profundidade 8 obteve o melhor resultado médio (0,586), indicando que um modelo um pouco mais profundo melhora a capacidade de captura de padrões sem um impacto significativo de sobreajuste (overfitting).
+\end{itemize}
+
+%\subsection{Análise por Rodadas}
+
+\begin{itemize}
+    \item Rodadas 2 e 3: As árvores de profundidade 4, 6 e 8 tiveram desempenho superior à profundidade 2. Isso sugere que um modelo mais profundo consegue lidar melhor com os dados iniciais, identificando padrões relevantes mais rapidamente.
+    \item Rodadas 4 a 6: O desempenho caiu significativamente, com a acurácia atingindo valores abaixo de 0,5, principalmente na rodada 6, onde a profundidade 2 obteve apenas 0,143, indicando dificuldades na generalização.
+    \item Rodadas 7 a 9: O desempenho melhora, especialmente para profundidade 8, que atingiu 0,7 e 0,8 nas rodadas 7 e 8. Isso indica que, à medida que mais dados foram adicionados ao modelo, árvores mais profundas foram capazes de capturar melhor os padrões.
+    \item Rodadas 10 a 12: As acurácias estabilizam para todas as profundidades, sugerindo que o modelo atingiu um ponto de aprendizado mais consistente.
+\end{itemize}
+
+%\subsection{Principais Insights}
+
+\begin{itemize}
+    \item Árvores muito rasas (profundidade 2) podem não capturar padrões suficientes, resultando em desempenho mais baixo na maioria das rodadas.
+    \item A profundidade 8 teve o melhor desempenho médio (0,586), indicando que aumentar a profundidade até certo ponto melhora a previsão sem causar overfitting significativo.
+    \item A profundidade 6 apresentou desempenho inferior ao esperado (0,528), sugerindo que pode ter sofrido com ruído ou características específicas do conjunto de dados.
+    \item Desempenho oscilante nas primeiras rodadas indica que ajustes adicionais na poda da árvore poderiam beneficiar modelos de profundidade intermediária (4 a 6).
+    \item Para futuros experimentos, testar profundidades entre 6 e 8 (como 7 ou 9) poderia ajudar a refinar ainda mais o modelo.
+\end{itemize}

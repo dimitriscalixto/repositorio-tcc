@@ -1,0 +1,9 @@
+rodada_id,mandante_media,mandante_pontos,mandante_variacao,mandante_atk,mandante_def,visitante_media,visitante_pontos,visitante_variacao,visitante_atk,visitante_def,resultado
+16,42.17,36.0,0.5599999999999999,238.0,140.6,61.05,88.16,2.22,365.7,303.4,vitoria_visitante
+16,42.71,37.5,-1.95,288.3,156.4,56.17,58.64,4.44,461.2,239.6,vitoria_visitante
+16,55.31,88.82,4.93,343.3,279.7,45.08,31.9,0.27,278.0,218.2,vitoria_mandante
+16,70.67999999999999,64.93,-3.53,457.3,320.8,42.94,49.31,5.72,222.0,168.4,vitoria_mandante
+16,56.72,38.07,-2.06,399.8,231.4,61.45,44.09,-7.89,337.7,311.79999999999995,vitoria_visitante
+16,52.92,46.04,1.14,334.2,182.7,37.14,54.98,3.79,209.3,114.8,empate
+16,48.5,45.62,-1.18,336.3,190.0,56.24,72.67,1.39,327.0,236.5,vitoria_visitante
+16,58.18,58.38,3.69,376.1,171.7,59.33,31.85,-9.17,439.9,230.2,vitoria_mandante

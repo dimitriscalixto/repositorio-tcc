@@ -1,0 +1,8 @@
+rodada_id,mandante_media,mandante_pontos,mandante_variacao,mandante_atk,mandante_def,visitante_media,visitante_pontos,visitante_variacao,visitante_atk,visitante_def,resultado
+5,71.59,0,0.6299999999999999,155.7,58.8,79.63,0,-0.8700000000000001,178.1,144.4,empate
+5,69.56,0,-3.35,153.8,82.5,54.2,0,-0.98,135.4,81.7,empate
+5,46.9,0,0.99,88.7,45.1,82.77,0,1.5400000000000005,180.2,115.9,vitoria_visitante
+5,87.06,0,12.39,172.8,155.0,52.31,0,-5.3,120.7,72.5,vitoria_mandante
+5,33.03,0,-2.44,42.1,37.3,84.76,0,1.28,106.5,189.9,vitoria_visitante
+5,87.35,0,-6.61,198.1,92.8,61.68,0,-2.5500000000000003,132.9,75.3,vitoria_visitante
+5,95.4,0,3.1100000000000003,136.0,157.9,69.89,0,2.08,111.0,81.0,empate
